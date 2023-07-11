@@ -64,12 +64,14 @@ function App(): ReactElement {
   return (
     <div className={styles.wrapper}>
       <div className={styles.page}>
-        <Header
-          isScroll={isScroll}
-          isMenuOpen={isMenuOpen}
-          setMenuOpen={setMenuOpen}
-          refs={refs}
-        />
+        <div className={styles.header}>
+          <Header
+            isScroll={isScroll}
+            isMenuOpen={isMenuOpen}
+            setMenuOpen={setMenuOpen}
+            refs={refs}
+          />
+        </div>
         <div className={styles.mainScreen}>
           <div className={clsx(styles.mainScreen__bg, styles.ibg)}>
             <img src={bgMain} alt="mainBg" />
@@ -82,7 +84,9 @@ function App(): ReactElement {
           <Shop shop={refs.shop} />
           <ContactForm contact={refs.contact} />
         </div>
-        <Footer aboutUs={refs.aboutUs} />
+        <div className={styles.footer}>
+          <Footer aboutUs={refs.aboutUs} />
+        </div>
         {isScroll && <div className={styles.topBtn}>
           <button onClick={() => window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })}>
             <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

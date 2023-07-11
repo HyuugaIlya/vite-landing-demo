@@ -32,13 +32,12 @@
 }
 
 .topBtn {
-    align-items: center;
-    justify-content: center;
+    @include flexbox();
     z-index: 2;
     cursor: pointer;
     position: fixed;
-    top: calc(96vh - 30px);
-    left: calc(6vw - 30px);
+    bottom: calc(6vh - 5%);
+    left: calc(6vw - 5%);
     
     button {
         align-items: center;
@@ -62,6 +61,19 @@
 
         &:active {
             transform: translate3d(0, 2px, 0);
+        }
+    }
+
+    @media (max-width: 767px) {
+        button {
+            max-width: 50px;
+            max-height: 50px;
+    
+            svg {
+                transform: rotate(180deg);
+                max-width: 50px;
+                max-height: 50px;
+            }
         }
     }
 }

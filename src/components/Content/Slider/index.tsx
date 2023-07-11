@@ -17,7 +17,7 @@ const titles = [
     'BMWonderful (@bm_wond)'
 ];
 
-export const CustomSlider = () => {
+export const CustomSlider: FC = () => {
     type TArr = {
         currentSlide: number
     }

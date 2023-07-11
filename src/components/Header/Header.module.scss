@@ -28,6 +28,12 @@
             path {
                 @include transition(0.3s, 0s);
             }
+
+            &:hover {
+                path {
+                    fill: #ffffffe5;
+                }
+            }
         }
     }
 
@@ -78,6 +84,12 @@
                 path {
                     fill: #fff
                 }
+                
+                &:hover {
+                    path {
+                        fill: #8f86ad80;
+                    }
+                }
             }
         }
     }
@@ -93,6 +105,10 @@
 
         &__link {
             color: #fff;
+
+            &:hover {
+                color: #8f86ad80;
+            }
         }
 
         @media (max-width: 767px) {
@@ -142,12 +158,17 @@
     }
 
     &__link {
+        @include transition(0.3s, 0s);
         cursor: pointer;
         color: #4d4959;
         font-size: 13px;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 2.6px;
+
+        &:hover {
+            color:#fff;
+        }
     }
 
     @media (max-width: 767px) {

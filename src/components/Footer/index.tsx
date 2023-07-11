@@ -25,13 +25,13 @@ export const Footer: FC<TProps> = ({ aboutUs }) => {
                     </div>
                     <div className={styles.footer__column}>
                         <div className={clsx(styles.footer__socials, styles.social)}>
-                            <a className={styles.social__link}>
+                            <a className={styles.social__link} href='#'>
                                 <img src={twit} alt='icon' />
                             </a>
-                            <a className={styles.social__link}>
+                            <a className={styles.social__link} href='https://www.instagram.com/post.melanine'>
                                 <img src={inst} alt='icon' />
                             </a>
-                            <a className={styles.social__link}>
+                            <a className={styles.social__link} href='#'>
                                 <img src={faceB} alt='icon' />
                             </a>
                         </div>

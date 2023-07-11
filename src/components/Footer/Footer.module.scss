@@ -66,10 +66,16 @@
 .social {
 
     &__link {
+        @include transition(0.15s, 0s);
+        cursor: pointer;
         margin: 0 7.5px;
 
         img {
             max-width: 40px;
+        }
+
+        &:hover {
+            transform: translate3d(0, -2px, 0);
         }
     }
 }

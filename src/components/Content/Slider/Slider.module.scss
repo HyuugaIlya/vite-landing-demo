@@ -1,0 +1,16 @@
+@import '../../../assets/scss/libs/mixins';
+
+.slider {
+    background-color: #f7f7f7;
+    padding: 120px 0 60px 0;
+
+    @media (max-width: 767px) {
+        padding:  40px 0 50px 0;
+    }
+}
+
+.container {
+    max-width: 1130px;
+    padding: 0 15px;
+    margin: 0 auto;
+}

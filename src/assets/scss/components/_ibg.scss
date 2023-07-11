@@ -1,0 +1,14 @@
+.ibg {
+    background: no-repeat center / cover;
+    position: relative;
+}
+    
+.ibg img {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}

@@ -1,0 +1,149 @@
+@import '../../../assets/scss/libs/mixins';
+
+.contact {
+
+    &__body {
+        max-width: 534px;
+        padding: 110px 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &__logo {
+        margin: 0 0 40px 0;
+
+        img {
+            max-width: 100px;
+        }
+    }
+
+    &__label {
+        color: #848789;
+        font-size: 24px;
+        font-style: italic;
+        margin: 0 0 35px 0;
+    }
+
+    &__form {
+        flex-direction: column;
+
+        &__container {
+            @include flexbox();
+        }
+        
+    }
+
+    &__input {
+        flex: 1 1 auto;
+        padding: 0 8px 0 0;
+
+        input {
+            padding: 0 28px;
+            width: 100%;
+            height: 69px;
+            border: 1px solid #d3d7d9;
+            background-color: #fff;
+            color: #929292;
+            font-size: 20px;
+            font-style: italic;
+        }
+    }
+
+    &__submit {
+        flex: 0 0 126px;
+        @include transition(0.15s, 0s);
+
+        button {
+            width: 100%;
+            height: 69px;
+            line-height: 69px;
+            color: #fff;
+            font-size: 24px;
+            font-weight: 300;
+            letter-spacing: 1.2px;
+            background-color: #435866;
+
+            @include transition(0.3s, 0s);
+        }
+
+        &:hover {
+            transform: translate3d(0, -1px, 0);
+
+            button {
+                background-color: darken($color: #435866, $amount: 8%);
+            }
+        }
+
+        &:active {
+            transform: translate3d(0, 1.5px, 0);
+
+            button {
+                background-color: lighten($color: #435866, $amount: 8%);
+            }
+        }
+    }
+
+    @media (max-width: 767px) {
+        .contact {
+            &__body {
+                padding: 50px 0;
+            }
+
+            &__logo {
+                margin: 0 0 20px 0;
+        
+                img {
+                    max-width: 90px;
+                }
+            }
+
+            &__label {
+                margin: 0 0 25px 0;
+            }
+
+            &__form__container {
+                display: block;
+            }
+
+            &__input {
+                padding: 0;
+            }
+
+            &__submit {
+                margin-top: 10px;
+
+                button {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.error {
+    input {
+        border: 1px solid rgba(255, 0, 0, 0.85);
+    }
+}
+
+.errors {
+    max-width: 400px;
+    margin-top: 10px;
+    padding: 0 auto;
+
+    span {
+        font-size: 24px;
+        font-style: italic;
+        color: rgba(255, 0, 0, 0.85)
+    };
+
+    @media (max-width: 767px) {
+        max-width: 100%;
+    }
+}
+
+.container {
+    max-width: 1130px;
+    padding: 0 15px;
+    margin: 0 auto;
+}

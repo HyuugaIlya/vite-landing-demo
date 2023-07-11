@@ -1,0 +1,96 @@
+@import '../../assets/scss/libs/mixins';
+
+.container {
+    max-width: 1130px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: #f7f7f7;
+    padding: 100px 0;
+
+    &__row {
+        @include flexbox();
+        align-items: center;
+    }
+
+    &__column {
+        flex: 0 1 33.333%;
+    }
+
+    &__address {
+        @include flexbox();
+        justify-content: flex-start;
+        flex-direction: column;
+        
+        p {
+            color: #5e6061;
+            font-style: italic;
+            font-size: 14px;
+            line-height: 18px;
+
+            &:first-child {
+                font-weight: 700;
+                font-style: normal;
+            }
+        }
+    }
+
+    &__socials {
+        @include flexbox();
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media (max-width: 1100px) {
+        padding: 50px 0;
+    }
+
+    @media (max-width: 767px) {
+        padding: 35px 0;
+
+        &__row {
+            flex-direction: column;
+            text-align: center;
+        }
+        &__address {
+            padding: 0;
+        }
+        &__socials {
+            margin: 20px 0;
+        }
+    }
+}
+
+.social {
+
+    &__link {
+        margin: 0 7.5px;
+
+        img {
+            max-width: 40px;
+        }
+    }
+}
+
+.dev {
+    @include flexbox();
+    justify-content: flex-end;
+    align-items: center;
+
+    &__text {
+        padding: 0 10px;
+        color: #5e6061;
+        font-style: italic;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    &__icon {
+
+        img {
+            max-width: 90px;
+        }
+    }
+}

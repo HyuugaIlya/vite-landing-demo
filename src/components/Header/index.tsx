@@ -23,23 +23,35 @@ export const Header: FC<TProps> = ({ isMenuOpen, setMenuOpen, isScroll, refs }) 
                     <Menu isScroll={isScroll} isMenuOpen={isMenuOpen} setMenuOpen={setMenuOpen} />
                     <div className={clsx(styles.menu__body, isMenuOpen && styles.active)}>
                         <ul className={styles.menu__list}>
-                            <li onClick={() => refs.aboutUs.current?.scrollIntoView({ behavior: 'smooth' })}>
+                            <li onClick={() => {
+                                refs.aboutUs.current?.scrollIntoView({ behavior: 'smooth' })
+                                setMenuOpen(false);
+                            }}>
                                 <p className={styles.menu__link}>
                                     about us
                                 </p>
                             </li>
-                            <li onClick={() => refs.brand.current?.scrollIntoView({ behavior: 'smooth' })}>
+                            <li onClick={() => {
+                                refs.brand.current?.scrollIntoView({ behavior: 'smooth' })
+                                setMenuOpen(false);
+                            }}>
                                 <p className={styles.menu__link}>
                                     brand
                                 </p>
                             </li>
-                            <li onClick={() => refs.shop.current?.scrollIntoView({ behavior: 'smooth' })}>
+                            <li onClick={() => {
+                                refs.shop.current?.scrollIntoView({ behavior: 'smooth' })
+                                setMenuOpen(false);
+                            }}>
                                 <p className={styles.menu__link}>
                                     shop
 
                                 </p>
                             </li>
-                            <li onClick={() => refs.contact.current?.scrollIntoView({ behavior: 'smooth' })}>
+                            <li onClick={() => {
+                                refs.contact.current?.scrollIntoView({ behavior: 'smooth' })
+                                setMenuOpen(false);
+                            }}>
                                 <p className={styles.menu__link}>
                                     contact
                                 </p>

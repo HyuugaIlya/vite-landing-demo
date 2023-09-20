@@ -38,7 +38,7 @@ export const Shop: FC<TProps> = ({ shop }) => {
                     <div className={clsx(styles.shop__block, styles.blockShop)}>
                         <div className={styles.blockShop__row}>
                             <div className={styles.blockShop__column}>
-                                <a href="#" className={clsx(styles.blockShop__item, styles.blockShop__item__l, styles.item)}>
+                                <a href="https://www.bmw.ru/ru/all-models.html?tl=grp-wdpl-bcom-mix-mn-.-nscf-.-.-" className={clsx(styles.blockShop__item, styles.blockShop__item__l, styles.item)}>
                                     <span className={clsx(styles.item__logo, styles.second__item)}>
                                         <img src={iconLogo} alt="logo" />
                                         <span>SHOP NOW</span>
@@ -49,7 +49,7 @@ export const Shop: FC<TProps> = ({ shop }) => {
                                 </a>
                             </div>
                             <div className={styles.blockShop__column}>
-                                <a href="#" className={clsx(styles.blockShop__item, styles.blockShop__item__l, styles.item)}>
+                                <a href="https://www.bmw.ru/ru/all-models.html?tl=grp-wdpl-bcom-mix-mn-.-nscf-.-.-" className={clsx(styles.blockShop__item, styles.blockShop__item__l, styles.item)}>
                                     <span className={clsx(styles.item__logo, styles.second__item)}>
                                         <img src={iconLogo} alt="logo" />
                                         <span>SHOP NOW</span>
@@ -60,7 +60,7 @@ export const Shop: FC<TProps> = ({ shop }) => {
                                 </a>
                             </div>
                         </div>
-                        <a href="#" className={clsx(styles.blockShop__item, styles.item)}>
+                        <a href="https://www.bmw.ru/ru/all-models.html?tl=grp-wdpl-bcom-mix-mn-.-nscf-.-.-" className={clsx(styles.blockShop__item, styles.item)}>
                             <span className={clsx(styles.item__logo, styles.second__item)}>
                                 <img src={iconLogo} alt="logo" />
                                 <span>SHOP NOW</span>
@@ -72,7 +72,7 @@ export const Shop: FC<TProps> = ({ shop }) => {
                     </div>
                 </div>
                 <div className={styles.shop__column}>
-                    <a href="#" className={clsx(styles.blockShop__item, styles.blockShop__item__big, styles.item)}>
+                    <a href="https://www.bmw.ru/ru/all-models.html?tl=grp-wdpl-bcom-mix-mn-.-nscf-.-.-" className={clsx(styles.blockShop__item, styles.blockShop__item__big, styles.item)}>
                         <span className={clsx(styles.item__logo, styles.second__item)}>
                             <img src={iconLogo} alt="logo" />
                             <span>SHOP NOW</span>
@@ -83,7 +83,7 @@ export const Shop: FC<TProps> = ({ shop }) => {
                     </a>
                 </div>
                 <div className={styles.shop__column}>
-                    <a href="#" className={clsx(styles.blockShop__item, styles.blockShop__item__big, styles.item)}>
+                    <a href="https://www.bmw.ru/ru/all-models.html?tl=grp-wdpl-bcom-mix-mn-.-nscf-.-.-" className={clsx(styles.blockShop__item, styles.blockShop__item__big, styles.item)}>
                         <span className={clsx(styles.item__logo, styles.second__item)}>
                             <img src={iconLogo} alt="logo" />
                             <span>SHOP NOW</span>
@@ -95,7 +95,7 @@ export const Shop: FC<TProps> = ({ shop }) => {
                 </div>
                 <div className={clsx(styles.shop__column, styles.big)}>
                     <div className={clsx(styles.shop__block, styles.blockShop)}>
-                        <a href="#" className={clsx(styles.blockShop__item, styles.item)}>
+                        <a href="https://www.bmw.ru/ru/all-models.html?tl=grp-wdpl-bcom-mix-mn-.-nscf-.-.-" className={clsx(styles.blockShop__item, styles.item)}>
                             <span className={clsx(styles.item__logo, styles.second__item)}>
                                 <img src={iconLogo} alt="logo" />
                                 <span>SHOP NOW</span>
@@ -106,7 +106,7 @@ export const Shop: FC<TProps> = ({ shop }) => {
                         </a>
                         <div className={styles.blockShop__row}>
                             <div className={styles.blockShop__column}>
-                                <a href="#" className={clsx(styles.blockShop__item, styles.blockShop__item__l, styles.item)}>
+                                <a href="https://www.bmw.ru/ru/all-models.html?tl=grp-wdpl-bcom-mix-mn-.-nscf-.-.-" className={clsx(styles.blockShop__item, styles.blockShop__item__l, styles.item)}>
                                     <span className={clsx(styles.item__logo, styles.second__item)}>
                                         <img src={iconLogo} alt="logo" />
                                         <span>SHOP NOW</span>
@@ -117,7 +117,7 @@ export const Shop: FC<TProps> = ({ shop }) => {
                                 </a>
                             </div>
                             <div className={styles.blockShop__column}>
-                                <a href="#" className={clsx(styles.blockShop__item, styles.blockShop__item__l, styles.item)}>
+                                <a href="https://www.bmw.ru/ru/all-models.html?tl=grp-wdpl-bcom-mix-mn-.-nscf-.-.-" className={clsx(styles.blockShop__item, styles.blockShop__item__l, styles.item)}>
                                     <span className={clsx(styles.item__logo, styles.second__item)}>
                                         <img src={iconLogo} alt="logo" />
                                         <span>SHOP NOW</span>
@@ -133,7 +133,7 @@ export const Shop: FC<TProps> = ({ shop }) => {
             </div>
             <div className={styles.shop__footer}>
                 <div className={styles.container}>
-                    <a href="#" className={styles.shop__btn}>DISCOVER THE SHOP</a>
+                    <a href="https://www.bmw.ru/ru/all-models.html?tl=grp-wdpl-bcom-mix-mn-.-nscf-.-.-" className={styles.shop__btn}>DISCOVER THE SHOP</a>
                 </div>
             </div>
         </div>

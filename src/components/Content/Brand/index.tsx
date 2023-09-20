@@ -44,7 +44,7 @@ export const Brand: FC<TProps> = ({ brand }) => {
         <div ref={brand} className={styles.brand}>
             <div className={styles.brand__row}>
                 <div className={clsx(styles.brand__column, styles.big)}>
-                    <a href="#" className={clsx(styles.brand__item, styles.item)}>
+                    <a href="https://www.bmw.ru/ru/index.html" className={clsx(styles.brand__item, styles.item)}>
                         <span className={styles.item__logo}>
                             <img src={logo1} alt="logo" />
                         </span>
@@ -72,7 +72,7 @@ export const Brand: FC<TProps> = ({ brand }) => {
         <div className={clsx(styles.brand, styles.rev)}>
             <div className={styles.brand__row}>
                 <div className={clsx(styles.brand__column, styles.big)}>
-                    <a href="#" className={clsx(styles.brand__item, styles.item)}>
+                    <a href="https://www.bmw.ru/ru/index.html" className={clsx(styles.brand__item, styles.item)}>
                         <span className={clsx(styles.item__logo, styles.second__item)}>
                             <img src={logo2} alt="logo" />
                             <span className={styles.brandLogo__span}>Motorsport</span>
@@ -101,7 +101,7 @@ export const Brand: FC<TProps> = ({ brand }) => {
         <div className={clsx(styles.brand, styles.rev)}>
             <div className={styles.brand__row}>
                 <div className={styles.brand__column}>
-                    <a href="#" className={clsx(styles.brand__item, styles.item)}>
+                    <a href="https://www.bmw.ru/ru/index.html" className={clsx(styles.brand__item, styles.item)}>
                         <span className={styles.item__logo}>
                             <img src={logo1} alt="logo" />
                         </span>
